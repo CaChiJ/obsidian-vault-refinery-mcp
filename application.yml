@@ -1,0 +1,7 @@
+spring:
+    application:
+        name: vault-refinery
+    
+    ai:
+        openai:
+            api-key: ${OPENAI_API_KEY:set_open_ai_api_key}
